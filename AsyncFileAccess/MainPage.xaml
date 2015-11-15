@@ -9,6 +9,9 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
+        <StackPanel>
+<Button Content="Create Files" Click="Button_Click" /> 
+<Button Content="Read Files" Click="Button_Click_1" />            
+        </StackPanel>
     </Grid>
 </Page>
